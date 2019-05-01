@@ -1,0 +1,79 @@
+J'aime l'IA.
+
+UNIGRAM MODEL:
+
+UNIGRAM: j
+FRENCH: P(j) = -2.2095776682007906  ==> log prob of sentence so far: -2.2095776682007906
+ENGLISH: P(j) = -2.944833324319119  ==> log prob of sentence so far: -2.944833324319119
+OTHER: P(j) = -1.7585989082119726  ==> log prob of sentence so far: -1.7585989082119726
+
+UNIGRAM: a
+FRENCH: P(a) = -1.076353095105509  ==> log prob of sentence so far: -3.2859307633062995
+ENGLISH: P(a) = -1.086788681042454  ==> log prob of sentence so far: -4.031622005361573
+OTHER: P(a) = -1.120098553376464  ==> log prob of sentence so far: -2.8786974615884366
+
+UNIGRAM: i
+FRENCH: P(i) = -1.1352064426688435  ==> log prob of sentence so far: -4.421137205975143
+ENGLISH: P(i) = -1.162525480273911  ==> log prob of sentence so far: -5.194147485635484
+OTHER: P(i) = -1.2293521114223467  ==> log prob of sentence so far: -4.108049573010783
+
+UNIGRAM: m
+FRENCH: P(m) = -1.5129486053385504  ==> log prob of sentence so far: -5.934085811313693
+ENGLISH: P(m) = -1.6111104829831362  ==> log prob of sentence so far: -6.80525796861862
+OTHER: P(m) = -1.6378611607347877  ==> log prob of sentence so far: -5.745910733745571
+
+UNIGRAM: e
+FRENCH: P(e) = -0.7669658145224565  ==> log prob of sentence so far: -6.70105162583615
+ENGLISH: P(e) = -0.9100712180599071  ==> log prob of sentence so far: -7.715329186678527
+OTHER: P(e) = -0.7228249200260484  ==> log prob of sentence so far: -6.46873565377162
+
+UNIGRAM: l
+FRENCH: P(l) = -1.2682124802855221  ==> log prob of sentence so far: -7.969264106121672
+ENGLISH: P(l) = -1.3477688854210008  ==> log prob of sentence so far: -9.063098072099528
+OTHER: P(l) = -1.4312149844088533  ==> log prob of sentence so far: -7.8999506381804725
+
+UNIGRAM: i
+FRENCH: P(i) = -1.1352064426688435  ==> log prob of sentence so far: -9.104470548790516
+ENGLISH: P(i) = -1.162525480273911  ==> log prob of sentence so far: -10.225623552373438
+OTHER: P(i) = -1.2293521114223467  ==> log prob of sentence so far: -9.12930274960282
+
+UNIGRAM: a
+FRENCH: P(a) = -1.076353095105509  ==> log prob of sentence so far: -10.180823643896025
+ENGLISH: P(a) = -1.086788681042454  ==> log prob of sentence so far: -11.312412233415893
+OTHER: P(a) = -1.120098553376464  ==> log prob of sentence so far: -10.249401302979283
+
+According to the unigram model, the sentence is in French
+----------------
+BIGRAM MODEL:
+
+BIGRAM: ja
+FRENCH: P(a|j) = -2.564576609559121  ==> log prob of sentence so far: -2.564576609559121
+ENGLISH: P(a|j) = -3.029361984779059  ==> log prob of sentence so far: -3.029361984779059
+OTHER: P(a|j) = -2.9584832013309157  ==> log prob of sentence so far: -2.9584832013309157
+
+BIGRAM: ai
+FRENCH: P(i|a) = -1.4894056996920462  ==> log prob of sentence so far: -4.053982309251167
+ENGLISH: P(i|a) = -1.9551806995864238  ==> log prob of sentence so far: -4.984542684365483
+OTHER: P(i|a) = -3.516086445098078  ==> log prob of sentence so far: -6.474569646428994
+
+BIGRAM: im
+FRENCH: P(m|i) = -2.467738427916121  ==> log prob of sentence so far: -6.521720737167288
+ENGLISH: P(m|i) = -2.025078547716661  ==> log prob of sentence so far: -7.009621232082144
+OTHER: P(m|i) = -3.59744520948896  ==> log prob of sentence so far: -10.072014855917953
+
+BIGRAM: me
+FRENCH: P(e|m) = -1.546881047534562  ==> log prob of sentence so far: -8.068601784701851
+ENGLISH: P(e|m) = -1.6449468646262362  ==> log prob of sentence so far: -8.65456809670838
+OTHER: P(e|m) = -2.0621517878260684  ==> log prob of sentence so far: -12.13416664374402
+
+BIGRAM: li
+FRENCH: P(i|l) = -2.132269700248962  ==> log prob of sentence so far: -10.200871484950813
+ENGLISH: P(i|l) = -1.7745726953075052  ==> log prob of sentence so far: -10.429140792015884
+OTHER: P(i|l) = -2.2298451714799703  ==> log prob of sentence so far: -14.364011815223991
+
+BIGRAM: ia
+FRENCH: P(a|i) = -2.823652377418673  ==> log prob of sentence so far: -13.024523862369486
+ENGLISH: P(a|i) = -2.4768809922846864  ==> log prob of sentence so far: -12.90602178430057
+OTHER: P(a|i) = -3.2789713235437703  ==> log prob of sentence so far: -17.64298313876776
+
+According to the bigram model, the sentence is in English
